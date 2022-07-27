@@ -10,6 +10,7 @@ public class AmrstrongNumber {
             sum = sum + (int) Math.pow(digit, 3);
             n /= 10;
         }
+        //Testing for version control
         if (check == sum) {
             return "Yes";
         } else {
